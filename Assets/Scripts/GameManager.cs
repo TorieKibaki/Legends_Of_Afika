@@ -1,12 +1,13 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
     public Door levelDoor;
-    public Text funFactText;
+    public TextMeshProUGUI funFactText;
 
     void Awake()
     {
