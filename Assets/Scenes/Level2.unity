@@ -696,7 +696,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.20001, g: 0.17552541, b: 0.61725056, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1974,7 +1974,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2129,7 +2129,6 @@ GameObject:
   - component: {fileID: 1900427402}
   - component: {fileID: 1900427405}
   - component: {fileID: 1900427404}
-  - component: {fileID: 1900427403}
   m_Layer: 5
   m_Name: Fun Fact
   m_TagString: Untagged
@@ -2156,18 +2155,6 @@ RectTransform:
   m_AnchoredPosition: {x: -200, y: 100}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1900427403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900427401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2dcbddb86d980c41918c6cab9387b83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StartPopup
 --- !u!114 &1900427404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2400,7 +2387,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.58803165, g: 0.89757407, b: 0.5020124, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
