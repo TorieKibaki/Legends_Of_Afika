@@ -1,17 +1,33 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class DisappearingTile : MonoBehaviour
 {
-    public float delay = 3f;
+    private Vector3 startPos;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
-            Invoke("Disappear", delay);
+        startPos = transform.position;
     }
 
-    void Disappear()
+
+    void OnCollisionStay2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            StartCoroutine(Disappear());
+        }
+    }
+
+
+    IEnumerator Disappear()
+    {
+        yield return new WaitForSeconds(3f);
         gameObject.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        transform.position = startPos;
+        gameObject.SetActive(true);
     }
 }
