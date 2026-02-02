@@ -1,26 +1,24 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Door : MonoBehaviour
 {
-    public string nextScene;
-    public AudioClip doorSound;
-    public ParticleSystem doorParticles;
+    public string nextSceneName;
 
-    private bool isActive = false;
 
-    public void ActivateDoor()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        isActive = true;
-        Instantiate(doorParticles, transform.position, Quaternion.identity);
-    }
+        if (!other.CompareTag("Player")) return;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player") && isActive)
+
+        if (GameManager.instance.hasSafeCollectible)
         {
-            AudioSource.PlayClipAtPoint(doorSound, transform.position);
-            SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene(nextSceneName);
+        }
+        else
+        {
+            UIManager.instance.ShowHint("You need at least one artefact!");
         }
     }
 }
