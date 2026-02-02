@@ -718,8 +718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e1eaf72127eb74478e042c8bd0c3c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnsafeCollectible
-  deathSound: {fileID: 8300000, guid: 1af25950686bbbe4fa127994b2f7d981, type: 3}
-  deathParticles: {fileID: 19821056, guid: 1f38216fa82beb541990ee6ffca9ad29, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,8 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8bd1fa8da1a55a49ad920880bf2e595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  levelDoor: {fileID: 1730349633}
-  funFactText: {fileID: 1755119385}
+  hasSafeCollectible: 0
 --- !u!4 &754161654
 Transform:
   m_ObjectHideFlags: 0
@@ -1293,6 +1290,52 @@ Transform:
   - {fileID: 390219733}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1476583946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476583948}
+  - component: {fileID: 1476583947}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1476583947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476583946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e4278764c972b488b3b780d8c090d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  messageText: {fileID: 0}
+  panel: {fileID: 0}
+--- !u!4 &1476583948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476583946}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.41054, y: -0.17567, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1523349701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,9 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc88a00907c0f744494ef1f74452a2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  nextScene: Level2
-  doorSound: {fileID: 8300000, guid: 38f4b6c8468d0104cadbcedb295fb52d, type: 3}
-  doorParticles: {fileID: 19860484, guid: 6af0de3b546fd5940a86835660f288b5, type: 3}
+  nextSceneName: 
 --- !u!212 &1730349634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1873,8 +1914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SafeCollectible
   funFact: 'UGANDA is known for Bananas.  '
-  collectSound: {fileID: 8300000, guid: 38f4b6c8468d0104cadbcedb295fb52d, type: 3}
-  collectParticles: {fileID: 19860484, guid: 6af0de3b546fd5940a86835660f288b5, type: 3}
 --- !u!58 &2119242567
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1982,3 +2021,4 @@ SceneRoots:
   - {fileID: 1730349635}
   - {fileID: 1625528596}
   - {fileID: 1020744337}
+  - {fileID: 1476583948}
