@@ -1,23 +1,30 @@
-using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public bool hasSafeCollectible = false;
 
-    public Door levelDoor;
-    public TextMeshProUGUI funFactText;
 
     void Awake()
     {
-        instance = this;
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(gameObject);
     }
 
-    public void CollectSafe(string fact)
+
+    public void CollectSafe()
     {
-        funFactText.text = fact;
-        funFactText.gameObject.SetActive(true);
-        levelDoor.ActivateDoor();
+        hasSafeCollectible = true;
+    }
+
+
+    public void ResetLevel()
+    {
+        hasSafeCollectible = false;
     }
 }
