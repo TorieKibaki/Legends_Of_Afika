@@ -1,13 +1,17 @@
 using UnityEngine;
 
-
 public class UnsafeCollectible : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    [SerializeField] private AudioClip dangerSound;
+    [SerializeField] private ParticleSpawner particleSpawner;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerRespawn>().Respawn();
+            particleSpawner.Spawn(transform.position);
+            AudioManager.Instance.PlaySFX(dangerSound);
+            Destroy(gameObject);
         }
     }
 }

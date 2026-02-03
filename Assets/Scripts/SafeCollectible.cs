@@ -1,17 +1,16 @@
 using UnityEngine;
 
-
 public class SafeCollectible : MonoBehaviour
 {
-    public string funFact;
+    [SerializeField] private AudioClip collectSound;
+    [SerializeField] private ParticleSpawner particleSpawner;
 
-
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.CollectSafe();
-            UIManager.instance.ShowFunFact(funFact);
+            particleSpawner.Spawn(transform.position);
+            AudioManager.Instance.PlaySFX(collectSound);
             Destroy(gameObject);
         }
     }
