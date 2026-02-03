@@ -1,11 +1,11 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
-    public Text messageText;
+    public TextMeshProUGUI messageText;
     public GameObject panel;
 
     void Awake()
