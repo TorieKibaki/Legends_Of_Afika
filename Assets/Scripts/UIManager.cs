@@ -1,19 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
+
     public Text messageText;
     public GameObject panel;
 
-
     void Awake()
     {
-        instance = this;
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(gameObject);
     }
-
 
     public void ShowFunFact(string fact)
     {
@@ -21,13 +22,11 @@ public class UIManager : MonoBehaviour
         messageText.text = fact;
     }
 
-
     public void ShowHint(string hint)
     {
         panel.SetActive(true);
         messageText.text = hint;
     }
-
 
     public void Hide()
     {
