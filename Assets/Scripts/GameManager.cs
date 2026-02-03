@@ -38,4 +38,21 @@ public class GameManager : MonoBehaviour
     {
         hasSafeCollectible = true;
     }
+
+    // SAVE LEVEL UNLOCK
+    public void UnlockLevel(int levelNumber)
+    {
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+
+        if (levelNumber > unlockedLevel)
+        {
+            PlayerPrefs.SetInt("UnlockedLevel", levelNumber);
+            PlayerPrefs.Save();
+        }
+    }
+
+    public int GetUnlockedLevel()
+    {
+        return PlayerPrefs.GetInt("UnlockedLevel", 1);
+    }
 }

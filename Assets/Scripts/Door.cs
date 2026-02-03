@@ -3,10 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    [Header("Next Level")]
     public string nextSceneName;
+    public int levelToUnlock;
 
-    [Header("Effects (Unlocked Only)")]
     public GameObject doorParticles;
     public AudioClip doorSound;
 
@@ -16,11 +15,14 @@ public class Door : MonoBehaviour
 
         if (GameManager.instance.hasSafeCollectible)
         {
-            if (doorSound != null)
+            if (doorSound)
                 AudioSource.PlayClipAtPoint(doorSound, transform.position);
 
-            if (doorParticles != null)
+            if (doorParticles)
                 Instantiate(doorParticles, transform.position, Quaternion.identity);
+
+            //Save progress
+            GameManager.instance.UnlockLevel(levelToUnlock);
 
             SceneManager.LoadScene(nextSceneName);
         }
