@@ -19,11 +19,11 @@ public class PlayerMovement : MonoBehaviour
     {
         
         {
-            Debug.Log(Input.GetAxisRaw("Horizontal"));
+            Debug.Log(Input.GetAxis("Horizontal"));
         }
 
 
-        float move = Input.GetAxisRaw("Horizontal");
+        float move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
 
