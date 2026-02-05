@@ -13,12 +13,21 @@ public class PlayerRespawn : MonoBehaviour
 
     public void Respawn()
     {
+        // 1. Move the player to the start position immediately
         transform.position = startPosition;
 
+        // 2. Safely stop all physics movement
         if (rb != null)
         {
+            // Stop moving (linear) and stop spinning (angular)
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+
+        // 3. Reset environmental hazards (Disappearing tiles, etc.)
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.ResetTiles();
         }
     }
 }

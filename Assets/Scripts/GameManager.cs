@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool hasSafeCollectible;
+    private List<DisappearingTile> tiles = new List<DisappearingTile>();
 
     void Awake()
     {
@@ -37,6 +40,22 @@ public class GameManager : MonoBehaviour
     public void CollectSafe()
     {
         hasSafeCollectible = true;
+    }
+
+    // REGISTER TILE
+    public void RegisterTile(DisappearingTile tile)
+    {
+        if (!tiles.Contains(tile))
+            tiles.Add(tile);
+    }
+
+    // RESET ALL TILES
+    public void ResetTiles()
+    {
+        foreach (DisappearingTile tile in tiles)
+        {
+            tile.ResetTile();
+        }
     }
 
     // SAVE LEVEL UNLOCK
