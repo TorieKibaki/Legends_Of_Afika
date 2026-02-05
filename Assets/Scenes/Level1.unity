@@ -309,6 +309,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94291010}
   m_CullTransparentMesh: 1
+--- !u!4 &256127387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5688957835024903800, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
+  m_PrefabInstance: {fileID: 913010148347718722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &312837340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 394209700550448659, guid: 2d71ed16daee04e4ab49233ef7f4edf1, type: 3}
@@ -1561,7 +1566,7 @@ GameObject:
   - component: {fileID: 1419365554}
   m_Layer: 6
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2175,6 +2180,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 72865314160951987, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: bbd4963bd1951b34bb31dd9f834f1654, type: 2}
+    - target: {fileID: 72865314160951987, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 256127387}
     - target: {fileID: 72865314160951987, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 64

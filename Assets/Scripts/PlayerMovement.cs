@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float moveSpeed = 5f;
-    public float jumpForce = 7f;
+    [Header("Data Source")]
+    public PlayerStats stats; // Drag your 'MainPlayerStats' file here
 
-    [Header("Ground Check")]
+    [Header("Environment")]
     public Transform groundCheck;
-    public float groundRadius = 0.2f;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
@@ -18,55 +16,58 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (stats == null)
+        {
+            Debug.LogError("Please assign a PlayerStats Scriptable Object to the PlayerMovement script!");
+        }
     }
 
     void Update()
     {
-        // 1. Check for Ground
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+        // Ground Detection logic
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, stats.groundRadius, groundLayer);
 
-        // 2. Handle Jump (Works for Spacebar)
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // Keyboard Jump
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+        }
+
+        Debug.Log("Is Grounded: " + isGrounded);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck != null && stats != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, stats.groundRadius);
         }
     }
 
     void FixedUpdate()
     {
-        // 3. Combine Inputs
-        // We take the keyboard input AND the mobile button input. 
-        // If keyboard is 0, mobile takes over. If mobile is 0, keyboard takes over.
-        float keyboardInput = Input.GetAxis("Horizontal");
-
-        // We use Mathf.Clamp to ensure we don't go "double speed" if pressing both
+        // Merge Keyboard (Horizontal) and Mobile (Buttons)
+        float keyboardInput = Input.GetAxisRaw("Horizontal");
         float combinedInput = Mathf.Clamp(keyboardInput + mobileMoveDirection, -1f, 1f);
 
-        rb.linearVelocity = new Vector2(combinedInput * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(combinedInput * stats.moveSpeed, rb.linearVelocity.y);
     }
+
+    
 
     // --- PUBLIC METHODS FOR UI BUTTONS ---
-
-    public void MoveLeft()
-    {
-        mobileMoveDirection = -1f;
-    }
-
-    public void MoveRight()
-    {
-        mobileMoveDirection = 1f;
-    }
-
-    public void StopMoving()
-    {
-        mobileMoveDirection = 0f;
-    }
 
     public void Jump()
     {
         if (isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, stats.jumpForce);
         }
     }
+
+    public void MoveLeft() => mobileMoveDirection = -1f;
+    public void MoveRight() => mobileMoveDirection = 1f;
+    public void StopMoving() => mobileMoveDirection = 0f;
 }
