@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MainPlayerStats
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   moveSpeed: 5
-  jumpForce: 7
+  jumpForce: 10
   groundRadius: 0.2
