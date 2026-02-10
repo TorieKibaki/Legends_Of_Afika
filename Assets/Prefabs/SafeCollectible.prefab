@@ -27,9 +27,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209329069341093678}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.5, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5336643, y: 0.5336643, z: 0.5336643}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.75998664, g: 0.145142, b: 0.82210237, a: 1}
+  m_Color: {r: 0.28554508, g: 0.78867924, b: 0.06993944, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -140,6 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 136cbd76e429b7d43bf23a662615e244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SafeCollectible
-  funFact: 'EGYPT is known for Pyramids. '
   collectParticles: {fileID: 0}
   collectSound: {fileID: 0}

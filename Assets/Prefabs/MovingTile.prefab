@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8961412079516069050}
   - component: {fileID: 4933601425492518785}
   - component: {fileID: 8879539157554204912}
+  - component: {fileID: 7808659478326767833}
   m_Layer: 6
   m_Name: MovingTile
   m_TagString: Ground
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.008, y: 1.35, z: 0}
-  m_LocalScale: {x: 9.628833, y: 1, z: 1}
+  m_LocalScale: {x: 1.7226183, y: 0.5694048, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -123,7 +124,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -150,5 +151,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f093563038f2314aba2beaffc8d38bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingPlatform
-  speed: 2
+  speed: 1
   distance: 3
+--- !u!251 &7808659478326767833
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6308171385433835727}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 1
+  m_SideArc: 1

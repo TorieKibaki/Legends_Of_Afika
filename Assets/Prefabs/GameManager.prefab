@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &473904453420598400
+--- !u!1 &4266239183982596502
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8065746956921010055}
-  - component: {fileID: 2040779248937185956}
-  - component: {fileID: 56785058361747684}
+  - component: {fileID: 3117409261648351761}
+  - component: {fileID: 8247557379923620932}
+  - component: {fileID: 7463598505651081525}
+  - component: {fileID: 5799252286094821093}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -18,43 +19,57 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8065746956921010055
+--- !u!4 &3117409261648351761
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473904453420598400}
+  m_GameObject: {fileID: 4266239183982596502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 659.098, y: 261.22403, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2040779248937185956
+--- !u!114 &8247557379923620932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473904453420598400}
+  m_GameObject: {fileID: 4266239183982596502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8bd1fa8da1a55a49ad920880bf2e595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hasSafeCollectible: 0
---- !u!114 &56785058361747684
+--- !u!114 &7463598505651081525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473904453420598400}
+  m_GameObject: {fileID: 4266239183982596502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3de7989003352645bd3464cb95de491, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WebGLFocusFix
+--- !u!114 &5799252286094821093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266239183982596502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdba800c83a45041a1c819d3907594c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  loadingScreen: {fileID: 0}
+  progressBar: {fileID: 0}
