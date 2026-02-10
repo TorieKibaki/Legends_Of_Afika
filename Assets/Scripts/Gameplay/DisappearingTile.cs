@@ -6,7 +6,10 @@ public class DisappearingTile : MonoBehaviour
     private Vector3 startPosition;
     private Collider2D col;
     private SpriteRenderer sr;
-    private bool triggered = false;
+
+    [SerializeField] private float disappearDelay = 2f; // Time player must stay on tile
+    private float timer = 0f;
+    private bool isPlayerOnTile = false;
 
     void Start()
     {
@@ -14,41 +17,57 @@ public class DisappearingTile : MonoBehaviour
         col = GetComponent<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
 
-        // Register this tile so the GameManager knows to reset it on player death
         if (GameManager.instance != null)
         {
             GameManager.instance.RegisterTile(this);
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Update()
     {
-        // OnCollisionEnter2D is more efficient than Stay2D for a single trigger
-        if (collision.gameObject.CompareTag("Player") && !triggered)
+        // Only count up if the player is currently standing on the tile
+        if (isPlayerOnTile)
         {
-            triggered = true;
-            StartCoroutine(DisappearRoutine());
+            timer += Time.deltaTime;
+
+            if (timer >= disappearDelay)
+            {
+                Disappear();
+            }
         }
     }
 
-    IEnumerator DisappearRoutine()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        yield return new WaitForSeconds(5f);
-
-        // We disable visuals and physics rather than the whole GameObject.
-        // If we set the GameObject to inactive, this script stops running!
-        sr.enabled = false;
-        col.enabled = false;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerOnTile = true;
+        }
     }
 
-    // This is called by your GameManager.instance.ResetTiles()
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerOnTile = false;
+            timer = 0f; // Reset the timer so they have to start over
+        }
+    }
+
+    void Disappear()
+    {
+        sr.enabled = false;
+        col.enabled = false;
+        isPlayerOnTile = false;
+        timer = 0f;
+    }
+
     public void ResetTile()
     {
-        StopAllCoroutines(); // Stop any pending disappearances
-
         transform.position = startPosition;
         sr.enabled = true;
         col.enabled = true;
-        triggered = false;
+        timer = 0f;
+        isPlayerOnTile = false;
     }
 }
