@@ -6,11 +6,27 @@ public class MainMenuController : MonoBehaviour
     [Header("Panels")]
     public GameObject mainPanel;
     public GameObject settingsPanel;
-    public GameObject roadmapPanel; // The Level Select Screen
+    public GameObject roadmapPanel; 
 
     void Start()
     {
-        ShowMain();
+        // Support returning to roadmap directly
+        if (GameManager.instance != null && GameManager.instance.returnToRoadmap)
+        {
+            ShowRoadmap();
+            GameManager.instance.returnToRoadmap = false; // Reset flag
+        }
+        else
+        {
+            ShowMain();
+        }
+    }
+    
+    public void ShowRoadmap()
+    {
+        mainPanel.SetActive(false);
+        roadmapPanel.SetActive(true);
+        settingsPanel.SetActive(false);
     }
 
     public void ShowMain()
@@ -44,10 +60,10 @@ public class MainMenuController : MonoBehaviour
         ShowMain();
     }
 
-    // --- ROADMAP LEVEL SELECTION ---
+    // ROADMAP LEVEL SELECTION 
     public void LoadLevel(int levelIndex)
     {
-        string levelName = "Level" + levelIndex; // Assumes scenes are named Level1, Level2...
+        string levelName = "Level" + levelIndex; 
         
         if (SceneLoader.instance != null)
             SceneLoader.instance.LoadScene(levelName);

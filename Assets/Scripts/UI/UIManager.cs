@@ -38,10 +38,29 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
     }
 
+    [Header("Mobile Controls")]
+    public GameObject mobileControlsPanel;
+
     void Start()
     {
         // Hide all panels at start
         HideAllPanels();
+
+        // Check for mobile platform
+        CheckMobilePlatform();
+    }
+
+    private void CheckMobilePlatform()
+    {
+        bool isMobile = Application.isMobilePlatform;
+        
+        // Debugging in Editor: Uncomment next line to test mobile UI on PC
+        // isMobile = true; 
+
+        if (mobileControlsPanel != null)
+        {
+            mobileControlsPanel.SetActive(isMobile);
+        }
     }
 
     void HideAllPanels()
@@ -159,6 +178,20 @@ public class UIManager : MonoBehaviour
     // --- BUTTON CALLBACKS ---
     public void OnHomeButton()
     {
+        if (SceneLoader.instance != null)
+            SceneLoader.instance.LoadScene("MainMenu");
+        else
+            SceneManager.LoadScene("MainMenu");
+    }
+
+    public void OnRoadmapButton()
+    {
+        // Set flag so Main Menu opens directly to Roadmap
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.returnToRoadmap = true;
+        }
+
         if (SceneLoader.instance != null)
             SceneLoader.instance.LoadScene("MainMenu");
         else

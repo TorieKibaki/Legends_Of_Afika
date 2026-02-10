@@ -2,20 +2,25 @@ using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
 {
-    private Vector3 startPosition;
+    private Vector3 respawnPosition;
     private Rigidbody2D rb;
 
     void Start()
     {
         // Store the initial position where the player starts the level
-        startPosition = transform.position;
+        respawnPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void SetCheckpoint(Vector3 newPosition)
+    {
+        respawnPosition = newPosition;
     }
 
     public void Respawn()
     {
-        // 1. Teleport the player back to the start
-        transform.position = startPosition;
+        // 1. Teleport the player back to the last checkpoint
+        transform.position = respawnPosition;
 
         // 2. Safely kill all momentum (Standard for Unity 6)
         if (rb != null)

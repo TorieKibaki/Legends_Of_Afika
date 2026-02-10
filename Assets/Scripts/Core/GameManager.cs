@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool hasSafeCollectible;
+    
+    // NEW: Navigation flag
+    public bool returnToRoadmap = false;
 
     private List<DisappearingTile> tiles = new List<DisappearingTile>();
     // NEW: List to track collectibles
