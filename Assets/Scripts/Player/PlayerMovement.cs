@@ -93,19 +93,14 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(combinedInput * stats.moveSpeed, rb.linearVelocity.y);
 
         // --- BETTER JUMP PHYSICS ---
-        // 1. Falling? falling faster (Heavier feel)
         if (rb.linearVelocity.y < 0)
         {
             rb.gravityScale = stats.fallMultiplier;
         }
-        // 2. Jumping up but NOT holding space? short hop
-        // Note: checking 'Jump' button for variable height. 
-        // For mobile, you might need a separate 'isHoldingJump' flag if using on-screen buttons.
         else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.gravityScale = stats.lowJumpMultiplier;
         }
-        // 3. Normal gravity otherwise
         else
         {
             rb.gravityScale = 1f;
@@ -115,18 +110,36 @@ public class PlayerMovement : MonoBehaviour
     private void PerformJump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, stats.jumpForce);
-        
+
         // Reset counters to prevent double jumps / spam
         jumpBufferCounter = 0f;
         coyoteTimeCounter = 0f;
+    }
+
+    // --- MOVING PLATFORM LOGIC ---
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // If we land on a MovingPlatform, become its child to move with it
+        if (collision.gameObject.GetComponent<MovingPlatform>())
+        {
+            transform.SetParent(collision.transform);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // If we leave the platform, stop being a child
+        if (collision.gameObject.GetComponent<MovingPlatform>())
+        {
+            transform.SetParent(null);
+        }
     }
 
     // --- PUBLIC METHODS FOR UI BUTTONS ---
 
     public void Jump()
     {
-        // For mobile button: simply set the buffer
-        // This will be picked up in the next Update() and executed if grounded (or coyote)
         jumpBufferCounter = stats.jumpBufferTime;
     }
 
