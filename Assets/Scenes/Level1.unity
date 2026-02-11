@@ -1162,7 +1162,6 @@ GameObject:
   - component: {fileID: 454543181}
   - component: {fileID: 454543180}
   - component: {fileID: 454543179}
-  - component: {fileID: 454543182}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1258,19 +1257,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &454543182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454543177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 686f71dbb482a194a92665dc17f15cd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlatformUI
-  mobileControls: {fileID: 0}
 --- !u!1001 &467521516
 PrefabInstance:
   m_ObjectHideFlags: 0
