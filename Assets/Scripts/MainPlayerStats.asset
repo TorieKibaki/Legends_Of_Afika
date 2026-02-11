@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912f354352575fc48a8e7551ede20684, type: 3}
   m_Name: MainPlayerStats
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  moveSpeed: 5
+  moveSpeed: 3
   jumpForce: 7
-  fallMultiplier: 2.5
-  lowJumpMultiplier: 2.5
+  fallMultiplier: 2
+  lowJumpMultiplier: 2
   coyoteTime: 0.2
   jumpBufferTime: 0.2
   groundRadius: 0.2
