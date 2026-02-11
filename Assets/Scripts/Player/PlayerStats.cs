@@ -4,12 +4,12 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     [Header("Movement Values")]
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3f;
     public float jumpForce = 7f;
 
     [Header("Physics Improvements")]
     [Tooltip("Gravity multiplier when falling (Higher = faster fall)")]
-    public float fallMultiplier = 2.5f;
+    public float fallMultiplier = 2f;
     
     [Tooltip("Gravity multiplier when releasing jump early (Higher = shorter hop)")]
     public float lowJumpMultiplier = 2f;

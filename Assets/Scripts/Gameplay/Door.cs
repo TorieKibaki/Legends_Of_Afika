@@ -1,10 +1,14 @@
 using UnityEngine;
+using TMPro; // Include this if you are using TextMeshPro
 
 public class Door : MonoBehaviour
 {
     [Header("Effects")]
     public GameObject doorParticles;
     public AudioClip doorSound;
+
+    [Header("UI Reference")]
+    public GameObject messageUI; // Drag your "PopUp" GameObject here in the Inspector
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,28 +23,40 @@ public class Door : MonoBehaviour
         // Check if player has the collectible
         if (GameManager.instance.hasSafeCollectible)
         {
-            // Play effects
-            if (doorSound)
-                AudioSource.PlayClipAtPoint(doorSound, transform.position);
-
-            if (doorParticles)
-                Instantiate(doorParticles, transform.position, Quaternion.identity);
-
-            // Tell LevelController door was passed
-            LevelController lc = FindFirstObjectByType<LevelController>();
-            if (lc != null)
-            {
-                lc.OnDoorPassed();
-            }
-            else
-            {
-                Debug.LogWarning("LevelController not found!");
-            }
+            OpenDoor();
         }
         else
         {
-            // Door is locked
-            Debug.Log($"Door is locked! hasSafeCollectible is: {GameManager.instance.hasSafeCollectible}");
+            // NEW: Show the message because they don't have the item
+            ShowLockedMessage();
         }
+    }
+
+    void OpenDoor()
+    {
+        if (doorSound)
+            AudioSource.PlayClipAtPoint(doorSound, transform.position);
+
+        if (doorParticles)
+            Instantiate(doorParticles, transform.position, Quaternion.identity);
+
+        LevelController lc = FindFirstObjectByType<LevelController>();
+        if (lc != null) lc.OnDoorPassed();
+    }
+
+    void ShowLockedMessage()
+    {
+        if (messageUI != null)
+        {
+            messageUI.SetActive(true);
+            // Optional: Hide the message after 2 seconds
+            Invoke("HideLockedMessage", 2f);
+        }
+        Debug.Log("You need to collect one Artefact");
+    }
+
+    void HideLockedMessage()
+    {
+        if (messageUI != null) messageUI.SetActive(false);
     }
 }
