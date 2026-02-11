@@ -541,6 +541,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7134838337539997219, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
   m_PrefabInstance: {fileID: 55854080}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &55854082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6803745545737270378, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+  m_PrefabInstance: {fileID: 55854080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &64615591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3985,7 +3990,7 @@ MonoBehaviour:
   endDuration: 3
   levelCompletePanel: {fileID: 0}
   completionText: {fileID: 0}
-  mobileControlsPanel: {fileID: 0}
+  mobileControlsPanel: {fileID: 55854082}
 --- !u!4 &1476583948
 Transform:
   m_ObjectHideFlags: 0
@@ -5264,11 +5269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.63
+      value: -7.58
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.46
+      value: -3.72
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.z
