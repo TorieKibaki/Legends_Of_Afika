@@ -1,59 +1,32 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Essential for scene switching
 
 public class LevelController : MonoBehaviour
 {
-    [Header("Level Info")]
-    public int levelIndex;
-
-    [Header("Panel Content")]
-    [TextArea(3, 10)]
-    public string introText = "Welcome to the Level!";
-    
-    [TextArea(3, 10)]
-    public string safeCollectibleFact = "Did you know? [Fact goes here]";
-
-    [TextArea(3, 10)]
-    public string endText = "You've reached the exit!";
-
-    void Start()
-    {
-        // Show Intro Panel at start
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowIntro(introText);
-        }
-    }
-
-    // Called by SafeCollectible when collected
-    public void OnSafeCollected()
-    {
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowFact(safeCollectibleFact);
-        }
-    }
-
-    // Called by Door when player passes through
+    // This is the function your Door script calls
     public void OnDoorPassed()
     {
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowEnd(endText);
-        }
-        
-        // Unlock next level
-        if (GameManager.instance != null)
-        {
-            GameManager.instance.UnlockLevel(levelIndex + 1);
-        }
+        Debug.Log("Level Complete! Moving to next level...");
+        LoadNextLevel();
     }
 
-    // Called by UIManager after End Panel closes
-    public void OnEndPanelClosed()
+    private void LoadNextLevel()
     {
-        if (UIManager.instance != null)
+        // 1. Get the index of the current scene
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // 2. Calculate the next index
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        // 3. Check if the next index exists in your Build Settings
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
-            UIManager.instance.ShowLevelComplete($"Level {levelIndex} Complete!");
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.LogWarning("You've reached the last level! Returning to Main Menu.");
+            SceneManager.LoadScene(0); // Optional: Load index 0 (usually the Menu)
         }
     }
 }
