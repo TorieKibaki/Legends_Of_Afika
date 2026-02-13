@@ -848,9 +848,17 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 3643725289828069369, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 6803745545737270378, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
       propertyPath: m_Name
       value: MobileControls
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803745545737270378, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7100258464228375777, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
