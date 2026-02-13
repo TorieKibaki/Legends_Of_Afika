@@ -840,30 +840,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 454543178}
     m_Modifications:
-    - target: {fileID: 258143148723431380, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    - target: {fileID: 1682884310799224057, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 913010148347718723}
-    - target: {fileID: 258143148723431380, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 913010148347718723}
-    - target: {fileID: 2660759973796213190, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 913010148347718723}
-    - target: {fileID: 2660759973796213190, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+    - target: {fileID: 1682884310799224057, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 913010148347718723}
     - target: {fileID: 6803745545737270378, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
       propertyPath: m_Name
       value: MobileControls
       objectReference: {fileID: 0}
-    - target: {fileID: 6803745545737270378, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 7100258464228375777, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 7100258464228375777, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
     - target: {fileID: 7134838337539997219, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -944,8 +940,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8622521668178742616, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    - target: {fileID: 8026220654614686569, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 8026220654614686569, guid: 8131072ddf9f69241a143e7fc4775b71, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 913010148347718723}
     m_RemovedComponents: []

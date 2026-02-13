@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     // Assists
     private float coyoteTimeCounter;
     private float jumpBufferCounter;
+    private bool isHoldingJump = false;
 
     void Start()
     {
@@ -97,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.gravityScale = stats.fallMultiplier;
         }
-        else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump"))
+        else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump") && !isHoldingJump)
         {
             rb.gravityScale = stats.lowJumpMultiplier;
         }
@@ -138,10 +139,22 @@ public class PlayerMovement : MonoBehaviour
 
     // --- PUBLIC METHODS FOR UI BUTTONS ---
 
-    public void Jump()
+    // For EventTrigger "PointerDown" on Jump Button
+    public void JumpStart()
     {
+        // Set buffer to attempt jump
         jumpBufferCounter = stats.jumpBufferTime;
+        isHoldingJump = true;
     }
+
+    // For EventTrigger "PointerUp" on Jump Button
+    public void JumpEnd()
+    {
+        isHoldingJump = false;
+    }
+
+    
+    public void Jump() => JumpStart();
 
     public void MoveLeft() => mobileMoveDirection = -1f;
     public void MoveRight() => mobileMoveDirection = 1f;
