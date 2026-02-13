@@ -16,17 +16,17 @@ public class LevelController : MonoBehaviour
         }
     }
 
-    // 2. Called by SafeCollectible.cs (This fixes your current error!)
+   
     public void OnSafeCollected()
     {
         if (UIManager.instance != null)
         {
-            // This triggers the Fact Panel in your UIManager
+           
             UIManager.instance.ShowFact("You found an Ancient Artefact!");
         }
     }
 
-    // 3. Called by UIManager after the "End Panel" timer
+    
     public void OnEndPanelClosed()
     {
         LoadNextLevel();
