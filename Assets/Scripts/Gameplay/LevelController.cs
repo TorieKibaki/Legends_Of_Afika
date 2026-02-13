@@ -1,32 +1,49 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Essential for scene switching
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
-    // This is the function your Door script calls
+    // 1. Called by the Door
     public void OnDoorPassed()
     {
-        Debug.Log("Level Complete! Moving to next level...");
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.ShowEnd("Level Complete!");
+        }
+        else
+        {
+            LoadNextLevel();
+        }
+    }
+
+    // 2. Called by SafeCollectible.cs (This fixes your current error!)
+    public void OnSafeCollected()
+    {
+        if (UIManager.instance != null)
+        {
+            // This triggers the Fact Panel in your UIManager
+            UIManager.instance.ShowFact("You found an Ancient Artefact!");
+        }
+    }
+
+    // 3. Called by UIManager after the "End Panel" timer
+    public void OnEndPanelClosed()
+    {
         LoadNextLevel();
     }
 
     private void LoadNextLevel()
     {
-        // 1. Get the index of the current scene
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-        // 2. Calculate the next index
-        int nextSceneIndex = currentSceneIndex + 1;
-
-        // 3. Check if the next index exists in your Build Settings
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextSceneIndex);
         }
         else
         {
-            Debug.LogWarning("You've reached the last level! Returning to Main Menu.");
-            SceneManager.LoadScene(0); // Optional: Load index 0 (usually the Menu)
+            Debug.Log("No more levels! Returning to Main Menu.");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

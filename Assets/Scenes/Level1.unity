@@ -3143,10 +3143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelController
-  levelIndex: 1
-  introText: Welcome to Egypt!
-  safeCollectibleFact: 'Did you know? [Fact goes here]'
-  endText: You've reached the exit!
 --- !u!1 &1992779048
 GameObject:
   m_ObjectHideFlags: 0
@@ -3671,11 +3667,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.99
+      value: -8.3146
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.92
+      value: -3.9484
       objectReference: {fileID: 0}
     - target: {fileID: 3544391468837272219, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
       propertyPath: m_LocalPosition.z
