@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
+    [Header("Animation")]
+    public Animator animator;
+
     private Rigidbody2D rb;
     private float mobileMoveDirection = 0f;
     private bool isGrounded;
@@ -30,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+
         // Block Input if UI is active
         if (UIManager.instance != null && UIManager.instance.IsInputLocked) return;
 
@@ -39,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded)
         {
             coyoteTimeCounter = stats.coyoteTime;
+
+            animator.SetBool("IsJumping", false);
         }
         else
         {
@@ -49,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jumpBufferCounter = stats.jumpBufferTime;
+
+            animator.SetBool("IsJumping", true);
         }
         else
         {
