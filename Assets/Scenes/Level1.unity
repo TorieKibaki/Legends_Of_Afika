@@ -746,6 +746,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: DisappearTile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.b
+      value: 0.05017749
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.g
+      value: 0.05017749
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.r
+      value: 0.051212788
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4101,6 +4113,18 @@ PrefabInstance:
     - target: {fileID: 4427362363781950754, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
       propertyPath: m_Name
       value: DisappearTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.b
+      value: 0.0716973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.g
+      value: 0.0716973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942586997755923730, guid: b09eabe673f58864da57cc9d6dfcf984, type: 3}
+      propertyPath: m_Color.r
+      value: 0.0727762
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

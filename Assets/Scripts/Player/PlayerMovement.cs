@@ -41,11 +41,11 @@ public class PlayerMovement : MonoBehaviour
         // Ground Detection & Coyote Time
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, stats.groundRadius, groundLayer);
 
+        animator.SetBool("IsGrounded", isGrounded);
+
         if (isGrounded)
         {
-            coyoteTimeCounter = stats.coyoteTime;
-
-            animator.SetBool("IsJumping", false);
+            coyoteTimeCounter = stats.coyoteTime;           
         }
         else
         {
@@ -55,9 +55,7 @@ public class PlayerMovement : MonoBehaviour
         // Jump Buffering
         if (Input.GetButtonDown("Jump"))
         {
-            jumpBufferCounter = stats.jumpBufferTime;
-
-            animator.SetBool("IsJumping", true);
+            jumpBufferCounter = stats.jumpBufferTime;           
         }
         else
         {
