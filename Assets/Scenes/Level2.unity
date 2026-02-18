@@ -4013,6 +4013,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: GamePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 441124602883315396, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 441124602883315396, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 441124602883315396, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 441124602883315396, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StopMoving
+      objectReference: {fileID: 0}
+    - target: {fileID: 774766609017785534, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 774766609017785534, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 774766609017785534, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 774766609017785534, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StopMoving
+      objectReference: {fileID: 0}
     - target: {fileID: 798445580233608856, guid: e722b13273f97574b8736c064eda1c44, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4116,6 +4148,22 @@ PrefabInstance:
     - target: {fileID: 8346918985577868803, guid: e722b13273f97574b8736c064eda1c44, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -156
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166150003232785170, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 9166150003232785170, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913010148347718723}
+    - target: {fileID: 9166150003232785170, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JumpStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166150003232785170, guid: e722b13273f97574b8736c064eda1c44, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JumpEnd
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6033,6 +6081,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
+--- !u!114 &913010148347718723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 72865314160951987, guid: f182add61bd13da4e8c3bb03003a55f4, type: 3}
+  m_PrefabInstance: {fileID: 913010148347718722}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2392e17f0a1324bad2c0b700397d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!1001 &1187595437926097207
 PrefabInstance:
   m_ObjectHideFlags: 0
