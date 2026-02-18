@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,11 +11,13 @@ public class UIManager : MonoBehaviour
     [Header("Intro Panel")]
     public GameObject introPanel;
     public TextMeshProUGUI introText;
+    public Image introImage; 
     public float introDuration = 3f;
 
     [Header("Fact Panel")]
     public GameObject factPanel;
     public TextMeshProUGUI factText;
+    public Image factImage; 
     public float factDuration = 5f;
 
     [Header("End Panel")]
@@ -25,6 +28,10 @@ public class UIManager : MonoBehaviour
     [Header("Level Complete Panel")]
     public GameObject levelCompletePanel;
     public TextMeshProUGUI completionText;
+
+    [Header("Pause Panel")]
+    public GameObject pausePanel;
+    private bool isPaused = false;
 
     // State management
     public bool IsInputLocked { get; private set; }
@@ -39,27 +46,21 @@ public class UIManager : MonoBehaviour
     }
 
     [Header("Mobile Controls")]
-    public GameObject mobileControlsPanel;
+    public GameObject mobileInputContainer; // Drag the parent object of your Left/Right/Jump buttons here
 
     void Start()
     {
-        // Hide all panels at start
         HideAllPanels();
-
-        // Check for mobile platform
         CheckMobilePlatform();
     }
 
     private void CheckMobilePlatform()
     {
         bool isMobile = Application.isMobilePlatform;
-        
-        // Debugging in Editor: Uncomment next line to test mobile UI on PC
-        // isMobile = true; 
 
-        if (mobileControlsPanel != null)
+        if (mobileInputContainer != null)
         {
-            mobileControlsPanel.SetActive(isMobile);
+            mobileInputContainer.SetActive(isMobile);
         }
     }
 
@@ -69,29 +70,25 @@ public class UIManager : MonoBehaviour
         if (factPanel != null) factPanel.SetActive(false);
         if (endPanel != null) endPanel.SetActive(false);
         if (levelCompletePanel != null) levelCompletePanel.SetActive(false);
-        
-        // Does NOT automatically unlock input (caller decides)
-        // If we want a hard reset of state, we could do:
-        // IsInputLocked = false;
-        // But usually we hide panels implicitly before showing another.
+        if (pausePanel != null) pausePanel.SetActive(false);
     }
 
-    // --- INTRO PANEL ---
-    public void ShowIntro(string text)
+    // --- SEQUENTIAL PANELS ---
+
+    public void ShowIntro(string[] texts, Sprite[] images = null, float[] customDurations = null)
     {
-        ShowTimedPanel(introPanel, introText, text, introDuration);
+        ShowSequentialPanel(introPanel, introText, introImage, texts, images, customDurations, introDuration);
     }
 
-    // --- FACT PANEL ---
-    public void ShowFact(string text)
+    public void ShowFact(string[] texts, Sprite[] images = null, float[] customDurations = null)
     {
-        ShowTimedPanel(factPanel, factText, text, factDuration);
+        ShowSequentialPanel(factPanel, factText, factImage, texts, images, customDurations, factDuration);
     }
 
-    // --- END PANEL ---
+    // --- END & COMPLETION ---
+
     public void ShowEnd(string text)
     {
-        // Close others first
         HideAllPanels();
 
         if (endPanel != null)
@@ -99,20 +96,15 @@ public class UIManager : MonoBehaviour
             endPanel.SetActive(true);
             if (endText != null) endText.text = text;
             
-            // Lock input
             IsInputLocked = true;
 
-            // Stop existing coroutine if any (though HideAllPanels handles cleanup usually, 
-            // we want to be sure we track this specific sequence)
             if (activeCoroutine != null) StopCoroutine(activeCoroutine);
             activeCoroutine = StartCoroutine(AutoCloseEndPanel(endDuration));
         }
     }
 
-    // --- LEVEL COMPLETE PANEL ---
     public void ShowLevelComplete(string text)
     {
-        // Clean up previous states
         HideAllPanels(); 
         
         if (levelCompletePanel != null)
@@ -120,52 +112,66 @@ public class UIManager : MonoBehaviour
             levelCompletePanel.SetActive(true);
             if (completionText != null) completionText.text = text;
             
-            // Keep input locked while in menu
+            // Keep input locked
             IsInputLocked = true; 
         }
     }
 
-    // --- HELPER METHDOS ---
+    // --- HELPERS ---
 
-    private void ShowTimedPanel(GameObject panel, TextMeshProUGUI textComp, string content, float duration)
+    private void ShowSequentialPanel(GameObject panel, TextMeshProUGUI textComp, Image imageComp, string[] contents, Sprite[] sprites, float[] customDurations, float defaultDuration)
     {
-        // 1. Hide any currently active panels to prevent overlap
         HideAllPanels();
 
-        // 2. Setup new panel
-        if (panel != null)
+        if (panel != null && contents.Length > 0)
         {
             panel.SetActive(true);
-            if (textComp != null) textComp.text = content;
-
-            // 3. Set state
             IsInputLocked = true;
 
-            // 4. Start timer (cancelling previous if valid)
             if (activeCoroutine != null) StopCoroutine(activeCoroutine);
-            activeCoroutine = StartCoroutine(AutoClosePanel(panel, duration));
+            activeCoroutine = StartCoroutine(PlaySequence(panel, textComp, imageComp, contents, sprites, customDurations, defaultDuration));
         }
     }
 
-    IEnumerator AutoClosePanel(GameObject panel, float duration)
+    IEnumerator PlaySequence(GameObject panel, TextMeshProUGUI textComp, Image imageComp, string[] contents, Sprite[] sprites, float[] customDurations, float defaultDuration)
     {
-        yield return new WaitForSecondsRealtime(duration);
-        
+        for (int i = 0; i < contents.Length; i++)
+        {
+            // Update Text
+            if (textComp != null) textComp.text = contents[i];
+            
+            // Update Image
+            if (imageComp != null && sprites != null && i < sprites.Length)
+            {
+                if (sprites[i] != null) 
+                {
+                    imageComp.sprite = sprites[i];
+                    imageComp.gameObject.SetActive(true);
+                }
+            }
+
+            // Duration
+            float stepDuration = defaultDuration;
+            if (customDurations != null && i < customDurations.Length && customDurations[i] > 0f)
+            {
+                stepDuration = customDurations[i];
+            }
+
+            yield return new WaitForSecondsRealtime(stepDuration);
+        }
+
         if (panel != null) panel.SetActive(false);
-        
-        // Unlock input after panel closes
         IsInputLocked = false;
         activeCoroutine = null;
     }
-
+    
     IEnumerator AutoCloseEndPanel(float duration)
     {
         yield return new WaitForSecondsRealtime(duration);
         
         if (endPanel != null) endPanel.SetActive(false);
         
-        // Do NOT unlock input yet, because we go straight to Level Complete
-        // Trigger event that level is complete
+        // Notify Level Controller
         LevelController lc = FindFirstObjectByType<LevelController>();
         if (lc != null)
         {
@@ -175,26 +181,48 @@ public class UIManager : MonoBehaviour
         activeCoroutine = null;
     }
 
-    // --- BUTTON CALLBACKS ---
+    // --- NAVIGATION ---
+
     public void OnHomeButton()
     {
-        if (SceneLoader.instance != null)
-            SceneLoader.instance.LoadScene("MainMenu");
-        else
-            SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void OnRoadmapButton()
     {
-        // Set flag so Main Menu opens directly to Roadmap
+        Time.timeScale = 1f;
         if (GameManager.instance != null)
         {
             GameManager.instance.returnToRoadmap = true;
         }
 
-        if (SceneLoader.instance != null)
-            SceneLoader.instance.LoadScene("MainMenu");
-        else
-            SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
     }
+
+    // --- PAUSE ---
+
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+
+        if (pausePanel != null)
+        {
+            pausePanel.SetActive(isPaused);
+        }
+
+        if (isPaused)
+        {
+            Time.timeScale = 0f;
+            IsInputLocked = true;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+            IsInputLocked = false;
+        }
+    }
+
+    public void OnPauseButton() => TogglePause();
+    public void OnResumeButton() => TogglePause();
 }

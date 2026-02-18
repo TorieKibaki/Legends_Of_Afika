@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8, y: 2, z: 0}
-  m_LocalScale: {x: 17.79505, y: 0.3687528, z: 1}
+  m_LocalScale: {x: 18.009556, y: 0.56834924, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,3 +150,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86aac8fa33b324e41a96ac7bea444e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeathTile
+  deathSound: {fileID: 8300000, guid: fc8e3245bd2a1c6428319500236e1f2a, type: 3}

@@ -12,6 +12,13 @@ public class PlayerMovement : MonoBehaviour
     [Header("Animation")]
     public Animator animator;
 
+    [Header("Audio")]
+    public AudioClip jumpSound;
+    public AudioClip footstepSound;
+    [Range(0f, 1f)] public float footstepVolume = 0.5f;
+
+    private AudioSource footstepSource;
+
     private Rigidbody2D rb;
     private float mobileMoveDirection = 0f;
     private bool isGrounded;
@@ -29,6 +36,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.LogError("Please assign a PlayerStats Scriptable Object to the PlayerMovement script!");
         }
+
+        // Setup Footstep Audio Source
+        footstepSource = gameObject.AddComponent<AudioSource>();
+        footstepSource.clip = footstepSound;
+        footstepSource.loop = true;
+        footstepSource.volume = footstepVolume;
+        footstepSource.playOnAwake = false;
     }
 
     void Update()
@@ -36,12 +50,26 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
 
         // Block Input if UI is active
-        if (UIManager.instance != null && UIManager.instance.IsInputLocked) return;
+        if (UIManager.instance != null && UIManager.instance.IsInputLocked) 
+        {
+            if (footstepSource.isPlaying) footstepSource.Stop();
+            return;
+        }
 
         // Ground Detection & Coyote Time
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, stats.groundRadius, groundLayer);
 
         animator.SetBool("IsGrounded", isGrounded);
+
+        // --- FOOTSTEP AUDIO LOGIC ---
+        if (isGrounded && Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+        {
+            if (!footstepSource.isPlaying) footstepSource.Play();
+        }
+        else
+        {
+            if (footstepSource.isPlaying) footstepSource.Stop();
+        }
 
         if (isGrounded)
         {
@@ -100,7 +128,17 @@ public class PlayerMovement : MonoBehaviour
         // Apply Horizontal Velocity (Keep vertical `y` for jump)
         rb.linearVelocity = new Vector2(combinedInput * stats.moveSpeed, rb.linearVelocity.y);
 
-        // --- BETTER JUMP PHYSICS ---
+        // Flip Character via Rotation
+        if (combinedInput > 0.01f)
+        {
+            transform.eulerAngles = Vector3.zero;
+        }
+        else if (combinedInput < -0.01f)
+        {
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
+        }
+
+        // Physics Improvements (Fall faster, low jump)
         if (rb.linearVelocity.y < 0)
         {
             rb.gravityScale = stats.fallMultiplier;
@@ -118,6 +156,12 @@ public class PlayerMovement : MonoBehaviour
     private void PerformJump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, stats.jumpForce);
+
+        // Play Jump Sound
+        if (AudioManager.instance != null && jumpSound != null)
+        {
+            AudioManager.instance.PlaySFX(jumpSound);
+        }
 
         // Reset counters to prevent double jumps / spam
         jumpBufferCounter = 0f;

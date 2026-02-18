@@ -140,5 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 136cbd76e429b7d43bf23a662615e244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SafeCollectible
-  collectParticles: {fileID: 0}
-  collectSound: {fileID: 0}
+  collectParticles: {fileID: 164832, guid: cc4edba986607ba48b17927b27d25e4e, type: 3}
+  collectSound: {fileID: 8300000, guid: 9c6fc445d4074764d88487e36acaf5a8, type: 3}
+  displayDuration: 0.5

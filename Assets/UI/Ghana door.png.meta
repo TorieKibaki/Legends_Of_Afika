@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: 18fc35e8fb21ecd4ebe0d11a035c8c5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1827747456828748395
+    second: Ghana door_0
+  - first:
+      213: 1853738215724309860
+    second: Ghana door_1
+  - first:
+      213: -8914623292119003327
+    second: Ghana door_2
+  - first:
+      213: 5209695277271576821
+    second: Ghana door_3
+  - first:
+      213: 5716341941622208435
+    second: Ghana door_4
+  - first:
+      213: 5434847580149058449
+    second: Ghana door_5
+  - first:
+      213: 7010871806312284906
+    second: Ghana door_6
+  - first:
+      213: 1191838158357097783
+    second: Ghana door_7
+  - first:
+      213: -3139660557872515753
+    second: Ghana door_8
+  - first:
+      213: 1369758357725093683
+    second: Ghana door_9
+  - first:
+      213: 7124952821432914904
+    second: Ghana door_10
+  - first:
+      213: -1121032700974757934
+    second: Ghana door_11
+  - first:
+      213: 5882587438364017905
+    second: Ghana door_12
+  - first:
+      213: 6923663194953535031
+    second: Ghana door_13
+  - first:
+      213: -8558848073310524912
+    second: Ghana door_14
+  - first:
+      213: 5740546685892077456
+    second: Ghana door_15
+  - first:
+      213: -3128340390868074624
+    second: Ghana door_16
+  - first:
+      213: -4458040617808112923
+    second: Ghana door_17
+  - first:
+      213: 1042215412709318235
+    second: Ghana door_18
+  - first:
+      213: -8363531939543118161
+    second: Ghana door_19
+  - first:
+      213: -1536949168398694449
+    second: Ghana door_20
+  - first:
+      213: 4800862667192866823
+    second: Ghana door_21
+  - first:
+      213: -5683199988947271642
+    second: Ghana door_22
+  - first:
+      213: 2386324525550495203
+    second: Ghana door_23
+  - first:
+      213: 3491304818100660123
+    second: Ghana door_24
+  - first:
+      213: 8237726527371918686
+    second: Ghana door_25
+  - first:
+      213: -6350638821964695898
+    second: Ghana door_26
+  - first:
+      213: 6744714812636680776
+    second: Ghana door_27
+  - first:
+      213: 6054721468423658833
+    second: Ghana door_28
+  - first:
+      213: -2363504200608015793
+    second: Ghana door_29
+  - first:
+      213: 2961225418310343288
+    second: Ghana door_30
+  - first:
+      213: 6156865478730496544
+    second: Ghana door_31
+  - first:
+      213: -2257939490076640604
+    second: Ghana door_32
+  - first:
+      213: -2134227148265922049
+    second: Ghana door_33
+  - first:
+      213: -893990667911297270
+    second: Ghana door_34
+  - first:
+      213: -4357899178833851993
+    second: Ghana door_35
+  - first:
+      213: 3758058527871525374
+    second: Ghana door_36
+  - first:
+      213: 4816253330649253709
+    second: Ghana door_37
+  - first:
+      213: 3252431993010447329
+    second: Ghana door_38
+  - first:
+      213: 2256466059544525520
+    second: Ghana door_39
+  - first:
+      213: 4591725337568460185
+    second: Ghana door_40
+  - first:
+      213: 100445484639384865
+    second: Ghana door_41
+  - first:
+      213: -4295666333220443197
+    second: Ghana door_42
+  - first:
+      213: 7927151956122962481
+    second: Ghana door_43
+  - first:
+      213: 2829089081506567529
+    second: Ghana door_44
+  - first:
+      213: 177691111048967945
+    second: Ghana door_45
+  - first:
+      213: -3555892965558199048
+    second: Ghana door_46
+  - first:
+      213: -3234157467683901014
+    second: Ghana door_47
+  - first:
+      213: 8198377800100339376
+    second: Ghana door_48
+  - first:
+      213: -5095915185817130415
+    second: Ghana door_49
+  - first:
+      213: 3521375456603877072
+    second: Ghana door_50
+  - first:
+      213: -605928475283639778
+    second: Ghana door_51
+  - first:
+      213: -4951586697254274863
+    second: Ghana door_52
+  - first:
+      213: 1270952033878944100
+    second: Ghana door_53
+  - first:
+      213: 1181118909262728810
+    second: Ghana door_54
+  - first:
+      213: -1857587792675132001
+    second: Ghana door_55
+  - first:
+      213: 9044290124721030903
+    second: Ghana door_56
+  - first:
+      213: -7835030864711086149
+    second: Ghana door_57
+  - first:
+      213: -888381173770858105
+    second: Ghana door_58
+  - first:
+      213: 8065524046949311423
+    second: Ghana door_59
+  - first:
+      213: -4434670615826819660
+    second: Ghana door_60
+  - first:
+      213: 3086994700826351913
+    second: Ghana door_61
+  - first:
+      213: -8431434765094930751
+    second: Ghana door_62
+  - first:
+      213: 4468600906469014195
+    second: Ghana door_63
+  - first:
+      213: 2306642229702501624
+    second: Ghana door_64
+  - first:
+      213: 817630248684017141
+    second: Ghana door_65
+  - first:
+      213: -4022108388764767229
+    second: Ghana door_66
+  - first:
+      213: -1322159402943603553
+    second: Ghana door_67
+  - first:
+      213: 6234479380384771042
+    second: Ghana door_68
+  - first:
+      213: -2901888592283992285
+    second: Ghana door_69
+  - first:
+      213: -3407948595871651612
+    second: Ghana door_70
+  - first:
+      213: 120341750357950868
+    second: Ghana door_71
+  - first:
+      213: -6563494600944527089
+    second: Ghana door_72
+  - first:
+      213: -3778009870017374828
+    second: Ghana door_73
+  - first:
+      213: -3913941915900905992
+    second: Ghana door_74
+  - first:
+      213: -6492937972032838842
+    second: Ghana door_75
+  - first:
+      213: 2401370931027343229
+    second: Ghana door_76
+  - first:
+      213: -2296751949188342567
+    second: Ghana door_77
+  - first:
+      213: -8631376306978118831
+    second: Ghana door_78
+  - first:
+      213: 1977811292276842066
+    second: Ghana door_79
+  - first:
+      213: -3821849698786508561
+    second: Ghana door_80
+  - first:
+      213: -1439337315769959472
+    second: Ghana door_81
+  - first:
+      213: -7012500779560920561
+    second: Ghana door_82
+  - first:
+      213: -7316871211613747228
+    second: Ghana door_83
+  - first:
+      213: -6490417951312690714
+    second: Ghana door_84
+  - first:
+      213: -1227230558014840354
+    second: Ghana door_85
+  - first:
+      213: 8401073887998874782
+    second: Ghana door_86
+  - first:
+      213: 544766909726451308
+    second: Ghana door_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghana door_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 790
+        height: 1266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d49903f5982a6e0800000000000000
+      internalID: -1827747456828748395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_1
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1236
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d50dee51dc9b910800000000000000
+      internalID: 1853738215724309860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_2
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1220
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fc2d6f855e84480800000000000000
+      internalID: -8914623292119003327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1186
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f07dc5a04e8c4840800000000000000
+      internalID: 5209695277271576821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_4
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1195
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7fe0d95b6845f40800000000000000
+      internalID: 5716341941622208435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_5
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1169
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b0d2f34157c6b40800000000000000
+      internalID: 5434847580149058449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1179
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae28b0d33ce9b4160800000000000000
+      internalID: 7010871806312284906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1165
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d61aa8d724a8010800000000000000
+      internalID: 1191838158357097783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1154
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75534b47b5fad64d0800000000000000
+      internalID: -3139660557872515753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_9
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1139
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f935418fb520310800000000000000
+      internalID: 1369758357725093683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_10
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1133
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d31dea67dae0e260800000000000000
+      internalID: 7124952821432914904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_11
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d78dcca2ba4170f0800000000000000
+      internalID: -1121032700974757934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1098
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4ccdf9b1623a150800000000000000
+      internalID: 5882587438364017905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1084
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ec6af1efac51060800000000000000
+      internalID: 6923663194953535031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1067
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a2ac7260dd83980800000000000000
+      internalID: -8558848073310524912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_15
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1022
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097a42dcbc48aaf40800000000000000
+      internalID: 5740546685892077456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1020
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f3dc93df6e594d0800000000000000
+      internalID: -3128340390868074624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_17
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 964
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2d8458dabd122c0800000000000000
+      internalID: -4458040617808112923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_18
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 981
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ed9fd5561b67e00800000000000000
+      internalID: 1042215412709318235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_19
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 930
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae06eb4304ceeb80800000000000000
+      internalID: -8363531939543118161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_20
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 939
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc783cbdfd8abaae0800000000000000
+      internalID: -1536949168398694449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 923
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7081775e82710a240800000000000000
+      internalID: 4800862667192866823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_22
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 913
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6204b4f88b73121b0800000000000000
+      internalID: -5683199988947271642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 909
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e56d30438ded1120800000000000000
+      internalID: 2386324525550495203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_24
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 898
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97ef7dfb3b937030800000000000000
+      internalID: 3491304818100660123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_25
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 877
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5db0dc91a8425270800000000000000
+      internalID: 8237726527371918686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_26
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 860
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a63df773affdd7a0800000000000000
+      internalID: -6350638821964695898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_27
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 842
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8425686136a0a9d50800000000000000
+      internalID: 6744714812636680776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_28
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 828
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dd253a811b60450800000000000000
+      internalID: 6054721468423658833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_29
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 811
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a9d91b375233fd0800000000000000
+      internalID: -2363504200608015793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_30
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 766
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ade3624d2681920800000000000000
+      internalID: 2961225418310343288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_31
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 764
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ab89d4884917550800000000000000
+      internalID: 6156865478730496544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_32
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 708
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aab7a13fff2aa0e0800000000000000
+      internalID: -2257939490076640604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_33
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 725
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff16d9d57b3b162e0800000000000000
+      internalID: -2134227148265922049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_34
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 674
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0702ae5938e793f0800000000000000
+      internalID: -893990667911297270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_35
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 683
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a944a639c1a583c0800000000000000
+      internalID: -4357899178833851993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_36
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 667
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1e8eee15e472430800000000000000
+      internalID: 3758058527871525374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_37
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 657
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4704a9f2e4c6d240800000000000000
+      internalID: 4816253330649253709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_38
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 653
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3e08f5aa5f22d20800000000000000
+      internalID: 3252431993010447329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_39
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 642
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da70e60de3905f10800000000000000
+      internalID: 2256466059544525520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_40
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 621
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dbde3ddd519bf30800000000000000
+      internalID: 4591725337568460185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_41
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 604
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125f837d2aad46100800000000000000
+      internalID: 100445484639384865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_42
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 586
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb6ac6ba3ab264c0800000000000000
+      internalID: -4295666333220443197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_43
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 572
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a804944b6e20e60800000000000000
+      internalID: 7927151956122962481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_44
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 555
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965922dc781f24720800000000000000
+      internalID: 2829089081506567529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_45
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 510
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90771d1cf19477200800000000000000
+      internalID: 177691111048967945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_46
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 508
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcd790103ee6aec0800000000000000
+      internalID: -3555892965558199048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_47
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 452
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1360f1be6fd13d0800000000000000
+      internalID: -3234157467683901014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_48
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bedd6d1c2d76c170800000000000000
+      internalID: 8198377800100339376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_49
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 418
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ae9d7432ca749b0800000000000000
+      internalID: -5095915185817130415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_50
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 427
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de27ab12507ed030800000000000000
+      internalID: 3521375456603877072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_51
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 411
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12bc67134f4797f0800000000000000
+      internalID: -605928475283639778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_52
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 401
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8fb9b222e684bb0800000000000000
+      internalID: -4951586697254274863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_53
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 397
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4692ae9142453a110800000000000000
+      internalID: 1270952033878944100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_54
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e0a10e36d246010800000000000000
+      internalID: 1181118909262728810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_55
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 365
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d2f769eb58836e0800000000000000
+      internalID: -1857587792675132001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_56
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 348
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6029123f5c38d70800000000000000
+      internalID: 9044290124721030903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_57
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 330
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf8ca8b0f0644390800000000000000
+      internalID: -7835030864711086149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_58
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 316
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7815e308706dba3f0800000000000000
+      internalID: -888381173770858105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_59
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 299
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3e8c1436f7eef60800000000000000
+      internalID: 8065524046949311423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_60
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b597cf1292e472c0800000000000000
+      internalID: -4434670615826819660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_61
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 252
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9299446235537da20800000000000000
+      internalID: 3086994700826351913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_62
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 196
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c633a7b0c68dfa80800000000000000
+      internalID: -8431434765094930751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_63
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baf21949d8a30e30800000000000000
+      internalID: 4468600906469014195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_64
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 162
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4255503e6d20020800000000000000
+      internalID: 2306642229702501624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_65
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 171
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5dc62116ec85b00800000000000000
+      internalID: 817630248684017141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_66
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 155
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cae8ffab99e28c0800000000000000
+      internalID: -4022108388764767229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_67
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 145
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c9a13370fb6ade0800000000000000
+      internalID: -1322159402943603553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_68
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 141
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebe45bf6f1558650800000000000000
+      internalID: 6234479380384771042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_69
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f772f33bb6ab7d0800000000000000
+      internalID: -2901888592283992285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_70
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 115
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e86742eec884b0d0800000000000000
+      internalID: -3407948595871651612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_71
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 109
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4910cb13f2a8ba100800000000000000
+      internalID: 120341750357950868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_72
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 91
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09d1817f68c9e4a0800000000000000
+      internalID: -6563494600944527089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_73
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 74
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495d1bb3a00d19bc0800000000000000
+      internalID: -3778009870017374828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_74
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 60
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5f63f7092eea9c0800000000000000
+      internalID: -3913941915900905992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_75
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 43
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6436654c05374e5a0800000000000000
+      internalID: -6492937972032838842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 13
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7775d58322635120800000000000000
+      internalID: 2401370931027343229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_77
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc517b554c4020e0800000000000000
+      internalID: -2296751949188342567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_78
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153a8d3daf0373880800000000000000
+      internalID: -8631376306978118831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_79
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25edae434e8927b10800000000000000
+      internalID: 1977811292276842066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_80
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe085eea2ff06fac0800000000000000
+      internalID: -3821849698786508561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_81
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db31955652760ce0800000000000000
+      internalID: -1439337315769959472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_82
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a1f1fd1b79eae90800000000000000
+      internalID: -7012500779560920561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_83
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e70b744660457a90800000000000000
+      internalID: -7316871211613747228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_84
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e14030d2476de5a0800000000000000
+      internalID: -6490417951312690714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_85
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed165044f4008fee0800000000000000
+      internalID: -1227230558014840354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_86
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e949bf9b03c969470800000000000000
+      internalID: 8401073887998874782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghana door_87
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e1ab3e966f8700800000000000000
+      internalID: 544766909726451308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghana door_0: -1827747456828748395
+      Ghana door_1: 1853738215724309860
+      Ghana door_10: 7124952821432914904
+      Ghana door_11: -1121032700974757934
+      Ghana door_12: 5882587438364017905
+      Ghana door_13: 6923663194953535031
+      Ghana door_14: -8558848073310524912
+      Ghana door_15: 5740546685892077456
+      Ghana door_16: -3128340390868074624
+      Ghana door_17: -4458040617808112923
+      Ghana door_18: 1042215412709318235
+      Ghana door_19: -8363531939543118161
+      Ghana door_2: -8914623292119003327
+      Ghana door_20: -1536949168398694449
+      Ghana door_21: 4800862667192866823
+      Ghana door_22: -5683199988947271642
+      Ghana door_23: 2386324525550495203
+      Ghana door_24: 3491304818100660123
+      Ghana door_25: 8237726527371918686
+      Ghana door_26: -6350638821964695898
+      Ghana door_27: 6744714812636680776
+      Ghana door_28: 6054721468423658833
+      Ghana door_29: -2363504200608015793
+      Ghana door_3: 5209695277271576821
+      Ghana door_30: 2961225418310343288
+      Ghana door_31: 6156865478730496544
+      Ghana door_32: -2257939490076640604
+      Ghana door_33: -2134227148265922049
+      Ghana door_34: -893990667911297270
+      Ghana door_35: -4357899178833851993
+      Ghana door_36: 3758058527871525374
+      Ghana door_37: 4816253330649253709
+      Ghana door_38: 3252431993010447329
+      Ghana door_39: 2256466059544525520
+      Ghana door_4: 5716341941622208435
+      Ghana door_40: 4591725337568460185
+      Ghana door_41: 100445484639384865
+      Ghana door_42: -4295666333220443197
+      Ghana door_43: 7927151956122962481
+      Ghana door_44: 2829089081506567529
+      Ghana door_45: 177691111048967945
+      Ghana door_46: -3555892965558199048
+      Ghana door_47: -3234157467683901014
+      Ghana door_48: 8198377800100339376
+      Ghana door_49: -5095915185817130415
+      Ghana door_5: 5434847580149058449
+      Ghana door_50: 3521375456603877072
+      Ghana door_51: -605928475283639778
+      Ghana door_52: -4951586697254274863
+      Ghana door_53: 1270952033878944100
+      Ghana door_54: 1181118909262728810
+      Ghana door_55: -1857587792675132001
+      Ghana door_56: 9044290124721030903
+      Ghana door_57: -7835030864711086149
+      Ghana door_58: -888381173770858105
+      Ghana door_59: 8065524046949311423
+      Ghana door_6: 7010871806312284906
+      Ghana door_60: -4434670615826819660
+      Ghana door_61: 3086994700826351913
+      Ghana door_62: -8431434765094930751
+      Ghana door_63: 4468600906469014195
+      Ghana door_64: 2306642229702501624
+      Ghana door_65: 817630248684017141
+      Ghana door_66: -4022108388764767229
+      Ghana door_67: -1322159402943603553
+      Ghana door_68: 6234479380384771042
+      Ghana door_69: -2901888592283992285
+      Ghana door_7: 1191838158357097783
+      Ghana door_70: -3407948595871651612
+      Ghana door_71: 120341750357950868
+      Ghana door_72: -6563494600944527089
+      Ghana door_73: -3778009870017374828
+      Ghana door_74: -3913941915900905992
+      Ghana door_75: -6492937972032838842
+      Ghana door_76: 2401370931027343229
+      Ghana door_77: -2296751949188342567
+      Ghana door_78: -8631376306978118831
+      Ghana door_79: 1977811292276842066
+      Ghana door_8: -3139660557872515753
+      Ghana door_80: -3821849698786508561
+      Ghana door_81: -1439337315769959472
+      Ghana door_82: -7012500779560920561
+      Ghana door_83: -7316871211613747228
+      Ghana door_84: -6490417951312690714
+      Ghana door_85: -1227230558014840354
+      Ghana door_86: 8401073887998874782
+      Ghana door_87: 544766909726451308
+      Ghana door_9: 1369758357725093683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

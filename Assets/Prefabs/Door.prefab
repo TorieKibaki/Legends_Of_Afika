@@ -104,8 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc88a00907c0f744494ef1f74452a2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  doorParticles: {fileID: 0}
-  doorSound: {fileID: 0}
+  doorParticles: {fileID: 164832, guid: cc4edba986607ba48b17927b27d25e4e, type: 3}
+  doorSound: {fileID: 8300000, guid: 7a1c5094a8800a14994782986a797e61, type: 3}
+  messageUI: {fileID: 0}
 --- !u!61 &4083256108474001966
 BoxCollider2D:
   m_ObjectHideFlags: 0

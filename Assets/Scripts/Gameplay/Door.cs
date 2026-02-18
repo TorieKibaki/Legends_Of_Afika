@@ -8,26 +8,21 @@ public class Door : MonoBehaviour
     public AudioClip doorSound;
 
     [Header("UI Reference")]
-    public GameObject messageUI; // Drag your "PopUp" GameObject here in the Inspector
+    public GameObject messageUI; 
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
-        if (GameManager.instance == null)
-        {
-            Debug.LogError("GameManager instance is null!");
-            return;
-        }
+        if (GameManager.instance == null) return;
 
-        // Check if player has the collectible
+        // Check if player collected the item
         if (GameManager.instance.hasSafeCollectible)
         {
             OpenDoor();
         }
         else
         {
-            // NEW: Show the message because they don't have the item
             ShowLockedMessage();
         }
     }
@@ -40,6 +35,7 @@ public class Door : MonoBehaviour
         if (doorParticles)
             Instantiate(doorParticles, transform.position, Quaternion.identity);
 
+        // Notify Level Controller to End Level
         LevelController lc = FindFirstObjectByType<LevelController>();
         if (lc != null) lc.OnDoorPassed();
     }
@@ -49,10 +45,8 @@ public class Door : MonoBehaviour
         if (messageUI != null)
         {
             messageUI.SetActive(true);
-            // Optional: Hide the message after 2 seconds
             Invoke("HideLockedMessage", 2f);
         }
-        Debug.Log("You need to collect one Artefact");
     }
 
     void HideLockedMessage()

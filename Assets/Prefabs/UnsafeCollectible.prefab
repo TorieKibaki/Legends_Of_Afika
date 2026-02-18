@@ -140,5 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e1eaf72127eb74478e042c8bd0c3c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnsafeCollectible
-  deathParticles: {fileID: 0}
-  deathSound: {fileID: 0}
+  deathParticles: {fileID: 125648, guid: 9fc1afc1190c21b459bff8bed1d9ec02, type: 3}
+  deathSound: {fileID: 8300000, guid: 4737b2daf9e4cbf4b99b0ca5d6e36bb3, type: 3}

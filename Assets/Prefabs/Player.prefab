@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: -3, z: 0}
-  m_LocalScale: {x: 0.23601271, y: 0.20301193, z: 0.60705274}
+  m_LocalScale: {x: 0.24569777, y: 0.2339987, z: 0.63196385}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5688957835024903800}
@@ -187,6 +187,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 6720796991836250689}
+  jumpSound: {fileID: 8300000, guid: 41b8671379c6eba4a9640cf709225b2d, type: 3}
+  footstepSound: {fileID: 8300000, guid: a1b5145a61a79ea48b0af7ef67904378, type: 3}
+  footstepVolume: 0.6
 --- !u!114 &5021058763042602890
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 2466c94b78595734ba31d1b1a4585204
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5536732437220743567
+    second: Boy standing_0
+  - first:
+      213: -86967544242720840
+    second: Boy standing_1
+  - first:
+      213: -689981393851006382
+    second: Boy standing_2
+  - first:
+      213: 7702397135428835946
+    second: Boy standing_3
+  - first:
+      213: 935230207559077454
+    second: Boy standing_4
+  - first:
+      213: -4320834063949837371
+    second: Boy standing_5
+  - first:
+      213: -7760967052161415267
+    second: Boy standing_6
+  - first:
+      213: 6433002094243274329
+    second: Boy standing_7
+  - first:
+      213: 4270160151289353366
+    second: Boy standing_8
+  - first:
+      213: 4423108454356112690
+    second: Boy standing_9
+  - first:
+      213: -2456979175017964294
+    second: Boy standing_10
+  - first:
+      213: -5231369912034428550
+    second: Boy standing_11
+  - first:
+      213: -271708643002606695
+    second: Boy standing_12
+  - first:
+      213: 8090491905139906970
+    second: Boy standing_13
+  - first:
+      213: -4023858025001940730
+    second: Boy standing_14
+  - first:
+      213: 5651903870148806055
+    second: Boy standing_15
+  - first:
+      213: 3264390142827305055
+    second: Boy standing_16
+  - first:
+      213: 444256765429642692
+    second: Boy standing_17
+  - first:
+      213: -8698616899357587896
+    second: Boy standing_18
+  - first:
+      213: 7605290035290788411
+    second: Boy standing_19
+  - first:
+      213: -6159822688354989912
+    second: Boy standing_20
+  - first:
+      213: 9113486842797218615
+    second: Boy standing_21
+  - first:
+      213: -598391330234528560
+    second: Boy standing_22
+  - first:
+      213: 2577005347249503420
+    second: Boy standing_23
+  - first:
+      213: -8786018293632438932
+    second: Boy standing_24
+  - first:
+      213: 1283537412742401491
+    second: Boy standing_25
+  - first:
+      213: -2186766062263564401
+    second: Boy standing_26
+  - first:
+      213: 6612067990174770228
+    second: Boy standing_27
+  - first:
+      213: -8999468636195223670
+    second: Boy standing_28
+  - first:
+      213: 4573972070388705493
+    second: Boy standing_29
+  - first:
+      213: 8503850358862218765
+    second: Boy standing_30
+  - first:
+      213: -115150141028030046
+    second: Boy standing_31
+  - first:
+      213: 2760851546137301058
+    second: Boy standing_32
+  - first:
+      213: 3712974529856452923
+    second: Boy standing_33
+  - first:
+      213: -9020678473084247081
+    second: Boy standing_34
+  - first:
+      213: 7157330380159242556
+    second: Boy standing_35
+  - first:
+      213: -4166954184562039123
+    second: Boy standing_36
+  - first:
+      213: 4821804413135924878
+    second: Boy standing_37
+  - first:
+      213: -9022075540579491329
+    second: Boy standing_38
+  - first:
+      213: 5046276214354826540
+    second: Boy standing_39
+  - first:
+      213: 7282071821232425091
+    second: Boy standing_40
+  - first:
+      213: 4425633297721121131
+    second: Boy standing_41
+  - first:
+      213: 3609844908244004150
+    second: Boy standing_42
+  - first:
+      213: 4289416689917843810
+    second: Boy standing_43
+  - first:
+      213: -5577340803413770047
+    second: Boy standing_44
+  - first:
+      213: -9139883733760443461
+    second: Boy standing_45
+  - first:
+      213: 2282726078057508649
+    second: Boy standing_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boy standing_0
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 5016
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89dce811dc66dc40800000000000000
+      internalID: 5536732437220743567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_1
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 187
+        width: 3822
+        height: 6442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfac62ba770bcef0800000000000000
+      internalID: -86967544242720840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_2
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 4983
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252c1e5f391bc66f0800000000000000
+      internalID: -689981393851006382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_3
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 4990
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ad838b26964ea60800000000000000
+      internalID: 7702397135428835946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_4
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 4969
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e06c03bea9afc00800000000000000
+      internalID: 935230207559077454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_5
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 4955
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbccd4cf405904c0800000000000000
+      internalID: -4320834063949837371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_6
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 4928
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97886ed5918b4490800000000000000
+      internalID: -7760967052161415267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_7
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4914
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ed6ba325d964950800000000000000
+      internalID: 6433002094243274329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_8
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 4909
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69451a78808a24b30800000000000000
+      internalID: 4270160151289353366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_9
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 4907
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2355ce064b9026d30800000000000000
+      internalID: 4423108454356112690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_10
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 4894
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc958c357e07edd0800000000000000
+      internalID: -2456979175017964294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_11
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 4866
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79758038c07667b0800000000000000
+      internalID: -5231369912034428550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_12
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 4873
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b1d63cd62ba3cf0800000000000000
+      internalID: -271708643002606695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_13
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4861
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a999900c583374070800000000000000
+      internalID: 8090491905139906970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_14
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 4812
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609872112726828c0800000000000000
+      internalID: -4023858025001940730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_15
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 4833
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a500e4ff989f6e40800000000000000
+      internalID: 5651903870148806055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_16
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 4805
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5812871a817d4d20800000000000000
+      internalID: 3264390142827305055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_17
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4813
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c57f74ac215a2600800000000000000
+      internalID: 444256765429642692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_18
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4792
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846c49c640e484780800000000000000
+      internalID: -8698616899357587896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_19
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 4771
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3253571efa6b8960800000000000000
+      internalID: 7605290035290788411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_20
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4758
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8853da6e9e38aa0800000000000000
+      internalID: -6159822688354989912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_21
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4793
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bdf1a8ffb997e70800000000000000
+      internalID: 9113486842797218615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_22
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 4710
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc82bc614612b7f0800000000000000
+      internalID: -598391330234528560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_23
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4731
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcb613b5bc53c320800000000000000
+      internalID: 2577005347249503420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_24
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4649
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d64f989eac11680800000000000000
+      internalID: -8786018293632438932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_25
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 4684
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd4f66f97a00d110800000000000000
+      internalID: 1283537412742401491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_26
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 4669
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8786e33adb07a1e0800000000000000
+      internalID: -2186766062263564401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_27
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 4615
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43429190ec8c2cb50800000000000000
+      internalID: 6612067990174770228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_28
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 4656
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a878054e4f67b1380800000000000000
+      internalID: -8999468636195223670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_29
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 4649
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8a3143d530a7f30800000000000000
+      internalID: 4573972070388705493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_30
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 4635
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d068f0798deb30670800000000000000
+      internalID: 8503850358862218765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_31
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 4622
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9203c8e87e66ef0800000000000000
+      internalID: -115150141028030046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_32
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 4594
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2401a158ad3805620800000000000000
+      internalID: 2760851546137301058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_33
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 4608
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39ba28a9a2278330800000000000000
+      internalID: 3712974529856452923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_34
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4567
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3eccae8bc10d280800000000000000
+      internalID: -9020678473084247081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_35
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 4568
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31d0814f02f35360800000000000000
+      internalID: 7157330380159242556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_36
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 4554
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da62ad12f310c26c0800000000000000
+      internalID: -4166954184562039123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_37
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 4546
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ea065119d7ae240800000000000000
+      internalID: 4821804413135924878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_38
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4526
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e40bc8162bc280800000000000000
+      internalID: -9022075540579491329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_39
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 4533
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c255f1b0b79f70640800000000000000
+      internalID: 5046276214354826540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_40
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 4472
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388c0754dbd1f0560800000000000000
+      internalID: 7282071821232425091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_41
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 4472
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69dec849020b6d30800000000000000
+      internalID: 4425633297721121131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_42
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 4458
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63de22a71deb81230800000000000000
+      internalID: 3609844908244004150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_43
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 4445
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2695f20d0c1178b30800000000000000
+      internalID: 4289416689917843810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_44
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 4384
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c00b3dd61e4992b0800000000000000
+      internalID: -5577340803413770047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_45
+      rect:
+        serializedVersion: 2
+        x: 5686
+        y: 3378
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb76d85b2c982180800000000000000
+      internalID: -9139883733760443461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy standing_46
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 1110
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f632a064fddaf10800000000000000
+      internalID: 2282726078057508649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boy standing_0: 5536732437220743567
+      Boy standing_1: -86967544242720840
+      Boy standing_10: -2456979175017964294
+      Boy standing_11: -5231369912034428550
+      Boy standing_12: -271708643002606695
+      Boy standing_13: 8090491905139906970
+      Boy standing_14: -4023858025001940730
+      Boy standing_15: 5651903870148806055
+      Boy standing_16: 3264390142827305055
+      Boy standing_17: 444256765429642692
+      Boy standing_18: -8698616899357587896
+      Boy standing_19: 7605290035290788411
+      Boy standing_2: -689981393851006382
+      Boy standing_20: -6159822688354989912
+      Boy standing_21: 9113486842797218615
+      Boy standing_22: -598391330234528560
+      Boy standing_23: 2577005347249503420
+      Boy standing_24: -8786018293632438932
+      Boy standing_25: 1283537412742401491
+      Boy standing_26: -2186766062263564401
+      Boy standing_27: 6612067990174770228
+      Boy standing_28: -8999468636195223670
+      Boy standing_29: 4573972070388705493
+      Boy standing_3: 7702397135428835946
+      Boy standing_30: 8503850358862218765
+      Boy standing_31: -115150141028030046
+      Boy standing_32: 2760851546137301058
+      Boy standing_33: 3712974529856452923
+      Boy standing_34: -9020678473084247081
+      Boy standing_35: 7157330380159242556
+      Boy standing_36: -4166954184562039123
+      Boy standing_37: 4821804413135924878
+      Boy standing_38: -9022075540579491329
+      Boy standing_39: 5046276214354826540
+      Boy standing_4: 935230207559077454
+      Boy standing_40: 7282071821232425091
+      Boy standing_41: 4425633297721121131
+      Boy standing_42: 3609844908244004150
+      Boy standing_43: 4289416689917843810
+      Boy standing_44: -5577340803413770047
+      Boy standing_45: -9139883733760443461
+      Boy standing_46: 2282726078057508649
+      Boy standing_5: -4320834063949837371
+      Boy standing_6: -7760967052161415267
+      Boy standing_7: 6433002094243274329
+      Boy standing_8: 4270160151289353366
+      Boy standing_9: 4423108454356112690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
